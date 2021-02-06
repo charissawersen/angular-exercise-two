@@ -1,0 +1,39 @@
+.diameter {
+  background-color: blueviolet;
+  border: 1px chartreuse solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+  box-shadow: 0 0 20px #eee;
+  background-image: linear-gradient(
+    to right,
+    #fbc2eb 0%,
+    #a6c1ee 51%,
+    #fbc2eb 100%
+  );
+}
+.diameter:hover {
+  /* box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19); */
+  background-position: right center;
+}
+
+.circle {
+  border-radius: 50%;
+}
+label {
+  color: white;
+}
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+label1 {
+  margin: 5px;
+  padding: 5px;
+}

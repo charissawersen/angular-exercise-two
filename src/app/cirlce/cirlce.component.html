@@ -1,0 +1,15 @@
+<div class="inputs"><input type="number" [(ngModel)]="diameter" /><label class="label1" for="diameter"
+  >Diameter</label
+>
+<input type="checkbox" name="checkbox" [(ngModel)]="isCircle" /><label
+  for="checkbox"
+  >Is a circle?</label
+></div>
+
+  <div
+    name="input"
+    class="diameter"
+    [style.width.px]="diameter"
+    [style.height.px]="diameter"
+    [ngClass]="{ circle: isCircle }"
+  ></div>
